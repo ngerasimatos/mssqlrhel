@@ -1,5 +1,3 @@
-oc delete project mssql
-sleep 60
 oc new-project mssql 
 oc adm policy add-scc-to-user anyuid -z default
 oc new-app https://github.com/ngerasimatos/mssqlrhel 
